@@ -12,7 +12,7 @@
 		<meta property="og:type" content="article" />
 		<meta property="og:url" content="http://github.com/nauvalazhar/Magz" />
 		<meta property="og:image" content="https://raw.githubusercontent.com/nauvalazhar/Magz/master/images/preview.png" />
-		<title>MartianN | Login Or Register</title>
+		<title>MartianN </title>
 		<!-- Bootstrap -->
 		<link rel="stylesheet" href="scripts/bootstrap/bootstrap.min.css">
 		<!-- IonIcons -->
@@ -34,31 +34,13 @@
 
 	<body style="background-color:black;">
 		<header class="primary" style="position:fixed; background-color: #fafafa;">
+<form>
+	
+</form>
 
-			<!-- Start nav -->
-
-<div class="col-sm-6 col-xs-12" style="display:inline-block; " >
-	<img src="images/Logo.jpeg" style="height:50px; width:auto; display:inline-block; margin-top:3px; margin-left:30%;">
-</div>
-<div class="col-sm-6 col-xs-12" style="margin-top:8px;">
-	<form style="display:inline-block;  ">
-		<div class="form-group" style="display:inline-block;">
-			<input type="text" name="username" class="form-control"  placeholder="Username">
-		</div>
-		<div class="form-group" style="display:inline-block;">
-			<input type="password" name="password" class="form-control" placeholder="Password">
-		</div>
-		<div class="form-group" style="display:inline-block;">
-		<a class="btn btn-info btn-sm btn-rounded" href="#" id='login-btn'>Login</a>
-		</div>
-
-	</form>
-</div>
-
-			<!-- End nav -->
 		</header>
 
-<section class="login first grey" style="background-image: url('images/background.png');   background-repeat:no-repeat; background-color:black;  background-attachment: fixed;">
+<section class="login first grey" style="background-image: url('images/background.png');  background-repeat:no-repeat; background-color:black;  background-attachment: fixed;">
 			<div class="container">
 				<div class=" col-sm-8 col-xs-12">
 .
@@ -127,30 +109,5 @@
 		<script src="scripts/toast/jquery.toast.min.js"></script>
 		<script src="js/demo.js"></script>
 		<script src="js/e-magz.js"></script>
-		<script>
-		$('.demo-settings-toggle').hide();
-		$('#login-btn').click(
-			function(event){
-				event.preventDefault();
-			$.toast({
-	text: 'Login Button Clicked !',
-	position: 'top-right',
-	heading: 'Making Ajax Call',
-	bgColor: '#3498db'
-})
-}
-		);
-		$('#register-btn').click(
-			function(event){
-				event.preventDefault();
-			$.toast({
-	text: 'Register Clicked !',
-	position: 'top-right',
-	heading: 'Making Ajax Call',
-	bgColor: '#3498db'
-})
-}
-		);
-		</script>
 	</body>
 </html>
